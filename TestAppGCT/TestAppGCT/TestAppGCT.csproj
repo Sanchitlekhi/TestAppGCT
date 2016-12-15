@@ -39,6 +39,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -88,6 +89,10 @@
     <Content Include="TestPage30.aspx" />
     <Content Include="TestPage31.aspx" />
     <Content Include="TestPage32.aspx" />
+    <Content Include="TestPage33.aspx" />
+    <Content Include="TestPage34.aspx" />
+    <Content Include="TestPage35.aspx" />
+    <Content Include="TestPage36.aspx" />
     <Content Include="TestPage4.aspx" />
     <Content Include="TestPage5.aspx" />
     <Content Include="TestPage6.aspx" />
@@ -330,6 +335,34 @@
     </Compile>
     <Compile Include="TestPage32.aspx.designer.cs">
       <DependentUpon>TestPage32.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage33.aspx.cs">
+      <DependentUpon>TestPage33.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage33.aspx.designer.cs">
+      <DependentUpon>TestPage33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage34.aspx.cs">
+      <DependentUpon>TestPage34.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage34.aspx.designer.cs">
+      <DependentUpon>TestPage34.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage35.aspx.cs">
+      <DependentUpon>TestPage35.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage35.aspx.designer.cs">
+      <DependentUpon>TestPage35.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage36.aspx.cs">
+      <DependentUpon>TestPage36.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage36.aspx.designer.cs">
+      <DependentUpon>TestPage36.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestPage4.aspx.cs">
       <DependentUpon>TestPage4.aspx</DependentUpon>
