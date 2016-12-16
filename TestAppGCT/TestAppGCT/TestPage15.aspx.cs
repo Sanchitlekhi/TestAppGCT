@@ -13,5 +13,9 @@ namespace TestAppGCT
         {
 
         }
+        public string Hello()
+        {
+            return "Hello World!!";
+        }
     }
 }
