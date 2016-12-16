@@ -95,6 +95,7 @@
     <Content Include="TestPage35.aspx" />
     <Content Include="TestPage36.aspx" />
     <Content Include="TestPage4.aspx" />
+    <Content Include="TestPage40.aspx" />
     <Content Include="TestPage5.aspx" />
     <Content Include="TestPage6.aspx" />
     <Content Include="TestPage7.aspx" />
@@ -371,6 +372,13 @@
     </Compile>
     <Compile Include="TestPage4.aspx.designer.cs">
       <DependentUpon>TestPage4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage40.aspx.cs">
+      <DependentUpon>TestPage40.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage40.aspx.designer.cs">
+      <DependentUpon>TestPage40.aspx</DependentUpon>
     </Compile>
     <Compile Include="TestPage5.aspx.cs">
       <DependentUpon>TestPage5.aspx</DependentUpon>
